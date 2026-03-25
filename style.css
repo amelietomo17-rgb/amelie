@@ -21,7 +21,7 @@ h2{
 
         .container {
             display: flex;
-            align-items: center;
+            align-items: right;
         }
 
         img {
