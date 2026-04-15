@@ -1,5 +1,3 @@
-/* GENERAL */
-
 body {
     background-color: white;
     font-family: Helvetica, Arial, sans-serif;
@@ -7,9 +5,6 @@ body {
     padding: 0;
     color: black;
 }
-
-
-/* SECTION 1 : plein écran */
 
 #section-haut {
     height: 100vh;
@@ -34,9 +29,6 @@ h1 {
     margin: 0;
 }
 
-
-/* SECTION 2 : PROJETS */
-
 #section-projets {
     padding: 60px;
 }
@@ -52,16 +44,15 @@ hr {
     margin: 0 0 50px 0;
 }
 
-#grille-projets {
+.projet {
     display: flex;
     gap: 60px;
     align-items: flex-start;
+    margin-bottom: 60px;
 }
 
-#liste-projets {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+.projet-gauche {
+    flex-shrink: 0;
 }
 
 .titre-projet {
@@ -76,16 +67,11 @@ hr {
     display: block;
 }
 
-#description-projets {
+.projet-droite {
     max-width: 400px;
     font-size: 18px;
     line-height: 1.7;
-    /* aligne le texte avec le haut des images */
     padding-top: 26px;
-}
-
-.description {
-    margin-bottom: 60px;
 }
 
 h3 {

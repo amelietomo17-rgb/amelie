@@ -1,64 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <title>Amelie — Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+<meta charset="utf-8">
+<title>Amelie — Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
 </head>
-
 <body>
-
-    <!-- SECTION 1 : plein écran -->
-    <div id="section-haut">
-        <div id="animation"></div>
-        <div id="texte-haut">
-            <h1>Amelie</h1>
-            <p>Bonjour, je suis Amélie, étudiante en graphisme au lycée des Arènes.</p>
-        </div>
-    </div>
-
-    <!-- SECTION 2 : PROJETS -->
-    <div id="section-projets">
-
-        <h2>Projets</h2>
-        <hr>
-
-        <div id="grille-projets">
-
-            <div id="liste-projets">
-
-                <div class="projet">
-                    <p class="titre-projet">Woman Metronum Academy Festival</p>
-                    <img src="projet_1.png" alt="Woman Metronum Academy Festival">
-                </div>
-
-                <div class="projet">
-                    <p class="titre-projet">Couleur de l'année Pantone</p>
-                    <img src="projet_2.png" alt="Couleur de l'année Pantone">
-                </div>
-
-            </div>
-
-            <div id="description-projets">
-
-                <div class="description">
-                    <h3>Projet 1 — Woman Metronum Academy Festival</h3>
-                    <p>Affiche pour le Woman Metronum Academy Festival, inspirée par le style de Saul Bass. J'ai puisé mon inspiration dans les caractéristiques de ses œuvres, telles que les formes géométriques, une typographie dessinée imposante, une mise en page dynamique et une palette de couleurs limitée.</p>
-                </div>
-
-                <div class="description">
-                    <h3>Projet 2 — Couleur de l'année Pantone</h3>
-                    <p>La demande était de faire une photo en mettant en avant la couleur de l'année de Pantone : le Viva Magenta. Mon concept est basé sur une des caractéristiques de la couleur : la guérison. Viva Magenta nous offre l'assurance et la motivation dont nous avons besoin pour faire face à des événements perturbateurs à long terme.</p>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <script src="sketch.js"></script>
-
+<div id="section-haut">
+<div id="animation"></div>
+<div id="texte-haut">
+<h1>Amelie</h1>
+<p>Bonjour, je suis Amélie, étudiante en graphisme au lycée des Arènes.</p>
+</div>
+</div>
+<div id="section-projets">
+<h2>Projets</h2>
+<hr>
+<div class="projet">
+<div class="projet-gauche">
+<p class="titre-projet">Woman Metronum Academy Festival</p>
+<img src="projet_1.png" alt="Woman Metronum Academy Festival">
+</div>
+<div class="projet-droite">
+<h3>Projet 1 — Woman Metronum Academy Festival</h3>
+<p>Affiche pour le Woman Metronum Academy Festival, inspirée par le style de Saul Bass. J'ai puisé mon inspiration dans les caractéristiques de ses œuvres, telles que les formes géométriques, une typographie dessinée imposante, une mise en page dynamique et une palette de couleurs limitée.</p>
+</div>
+</div>
+<div class="projet">
+<div class="projet-gauche">
+<p class="titre-projet">Couleur de l'année Pantone</p>
+<img src="projet_2.png" alt="Couleur de l'année Pantone">
+</div>
+<div class="projet-droite">
+<h3>Projet 2 — Couleur de l'année Pantone</h3>
+<p>La demande était de faire une photo en mettant en avant la couleur de l'année de Pantone : le Viva Magenta. Mon concept est basé sur une des caractéristiques de la couleur : la guérison. Viva Magenta nous offre l'assurance et la motivation dont nous avons besoin pour faire face à des événements perturbateurs à long terme.</p>
+</div>
+</div>
+</div>
+<script src="sketch.js"></script>
 </body>
 </html>
