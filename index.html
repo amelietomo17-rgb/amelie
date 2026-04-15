@@ -2,78 +2,65 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Amélie</title>
-
+    <title>Amelie — Portfolio</title>
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/addons/p5.sound.min.js"></script>
-
-    <style>
-        body {
-            background-color: #FFFF00;
-            font-family: Helvetica, Arial, sans-serif;
-        }
-
-        .container {
-            display: flex;
-            align-items: right;
-        }
-
-        img {
-            width: 6cm; 
-            margin-right: 1cm; 
-        }
-
-        h1 {
-            font-size: 200px;
-            margin-bottom: 0.5cm; 
-            color: black;
-        }
-
-        h2 {
-            margin-top: 0;
-            font-size: 18px;
-            font-weight: normal;
-            color: black;
-        }
-
-        a {
-            color: black;
-        }
-    </style>
+    <script src="sketch.js" defer></script>
 </head>
 
 <body>
 
-    <div class="container">
-        <img src="sign.jpg" >
+    <!-- SECTION 1 : ANIMATION + NOM -->
+    <div id="section-haut">
+        <div id="animation"></div>
+        <h1>Amelie</h1>
+    </div>
 
-        <div>
-            <h1>Amélie</h1>
-            <h2>Je suis élève en design graphique</h2>
-            <a href="https://amelietomo17-rgb.github.io/amelie/" target="_blank">
-                Ma page GitHub
-            </a>
+    <!-- SECTION 2 : QUI JE SUIS -->
+    <div id="section-milieu">
+        <p>Bonjour, je suis Amélie, étudiante en graphisme au lycée des Arènes.</p>
+    </div>
+
+    <!-- SECTION 3 : PROJETS -->
+    <div id="section-projets">
+
+        <h2>Projets</h2>
+
+        <div id="grille-projets">
+
+            <!-- COLONNE GAUCHE : les projets -->
+            <div id="liste-projets">
+
+                <div class="projet">
+                    <img src="projet_1.png" alt="Woman Metronum Academy Festival">
+                    <p class="titre-projet">Woman Metronum Academy Festival</p>
+                </div>
+
+                <div class="projet">
+                    <img src="projet_2.png" alt="Couleur de l'année Pantone">
+                    <p class="titre-projet">Couleur de l'année Pantone</p>
+                </div>
+
+            </div>
+
+            <!-- COLONNE DROITE : descriptions -->
+            <div id="description-projets">
+
+                <div class="description">
+                    <h3>Projet 1 — Woman Metronum Academy Festival</h3>
+                    <p>Affiche pour le Woman Metronum Academy Festival, inspirée par le style de Saul Bass. J'ai puisé mon inspiration dans les caractéristiques de ses œuvres, telles que les formes géométriques, une typographie dessinée imposante, une mise en page dynamique et une palette de couleurs limitée.</p>
+                </div>
+
+                <div class="description">
+                    <h3>Projet 2 — Couleur de l'année Pantone</h3>
+                    <p>La demande était de faire une photo en mettant en avant la couleur de l'année de Pantone : le Viva Magenta. Mon concept est basé sur une des caractéristiques de la couleur : la guérison. Viva Magenta nous offre l'assurance et la motivation dont nous avons besoin pour faire face à des événements perturbateurs à long terme.</p>
+                </div>
+
+            </div>
+
         </div>
+
     </div>
 
 </body>
 </html>
-
-</p>
-<p>
-<br>
-Voici mes projets ci-dessous
-</p>
-</body>
-<script src="sketch.js"></script>
-</html>
-
-h1 {
-    
-}
-
-
-
-
-
-
