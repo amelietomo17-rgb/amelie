@@ -9,38 +9,35 @@ body {
 }
 
 
-/* SECTION 1 : HAUT */
+/* SECTION 1 : plein écran */
 
 #section-haut {
+    height: 100vh;
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding: 60px;
+    box-sizing: border-box;
 }
 
-h1 {
-    font-size: 200px;
-    margin: 0;
+#texte-haut {
     margin-left: 40px;
 }
 
-
-/* SECTION 2 : MILIEU */
-
-#section-milieu {
-    padding: 40px;
+h1 {
+    font-size: 180px;
+    margin: 0 0 20px 0;
 }
 
-#section-milieu p {
+#texte-haut p {
     font-size: 22px;
-    line-height: 1.6;
     margin: 0;
 }
 
 
-/* SECTION 3 : PROJETS */
+/* SECTION 2 : PROJETS */
 
 #section-projets {
-    padding: 40px;
+    padding: 60px;
 }
 
 h2 {
