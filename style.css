@@ -20,16 +20,17 @@ body {
 }
 
 #texte-haut {
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 h1 {
-    font-size: 180px;
-    margin: 0 0 20px 0;
+    font-size: 260px;
+    margin: 0 0 30px 0;
+    line-height: 1;
 }
 
 #texte-haut p {
-    font-size: 22px;
+    font-size: 26px;
     margin: 0;
 }
 
@@ -41,8 +42,14 @@ h1 {
 }
 
 h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
+    font-size: 80px;
+    margin: 0 0 20px 0;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 0 0 50px 0;
 }
 
 #grille-projets {
@@ -57,22 +64,24 @@ h2 {
     gap: 40px;
 }
 
+.titre-projet {
+    margin: 0 0 8px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 .projet img {
     width: 400px;
     height: auto;
     display: block;
 }
 
-.titre-projet {
-    margin: 10px 0 0 0;
-    font-weight: bold;
-    font-size: 16px;
-}
-
 #description-projets {
     max-width: 400px;
     font-size: 18px;
     line-height: 1.7;
+    /* aligne le texte avec le haut des images */
+    padding-top: 26px;
 }
 
 .description {
